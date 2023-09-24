@@ -1,0 +1,42 @@
+.dropdown {
+  &__summary {
+    margin-right: 1rem;
+    color: #888;
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 400;
+    }
+
+    &__icon {
+      color: #fff;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #333;
+    }
+
+    &__active {
+      background-color: #666;
+
+      &:hover {
+        background-color: #666;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.edit {
+  tr {
+    td {
+      white-space: nowrap;
+      color: #fff;
+    }
+
+    td:nth-child(2) {
+      width: 100%;
+    }
+  }
+
+  &__create {
+    color: #7393b3;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    &__second {
+      margin-left: 2rem;
+    }
+
+    &__third {
+      margin-left: 4rem;
+    }
+  }
+}

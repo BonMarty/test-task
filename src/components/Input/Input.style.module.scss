@@ -1,0 +1,19 @@
+.input {
+  background-color: transparent;
+  padding: 0.4rem 1rem;
+  border-radius: 0.6rem;
+  border: 1px solid #808080;
+  font-family: inherit;
+  width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  appearance: none;
+  -moz-appearance: textfield;
+}
